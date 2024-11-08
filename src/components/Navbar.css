@@ -6,6 +6,9 @@
   margin: 0;
   padding: 0;
 }
+h3{
+  font-size: 22px
+}
 
 /* Barra de navegación */
 .navbar {
@@ -63,7 +66,7 @@
 }
 
 .logo {
-  width: 80px;
+  width: 250px;
   height: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -75,7 +78,7 @@
 
 .navbar-logo h2 {
   font-size: 2.2rem;
-  font-weight: 700;
+  font-weight: 100;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;

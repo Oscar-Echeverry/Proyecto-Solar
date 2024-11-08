@@ -2,14 +2,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import logo from '../assets/logo.png';
+import logo from '../assets/Logo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
         <img src={logo} alt="Logo" className="logo" />
-        <h2>Energia Sin Fronteras</h2>
+        <h3>Energia Sin Fronteras</h3>
       </div>
       <ul className="nav-links">
         <li><Link to="/">Inicio</Link></li>  {/* Redirige a Home */}
